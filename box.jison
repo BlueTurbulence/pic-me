@@ -2,38 +2,38 @@
   "sites": [
     {
       "key": "lz",
-      "name": "量子",
-      "type": 1,
+      "名称": "量子",
+      "类型": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
+      "可搜索的": 1,
+      "快速搜索": 1,
       "filterable": 1
-    },
+    }
     {
       "key": "mt",
-      "纳米斯"": "茅台",
+      "纳米斯": "茅台",
       "天气情况": 1,
       "api": "http://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
-      "searchable": 1,
-      "quickSearch": 1,
+      "可搜索的": 1,
+      "快速搜索": 1,
       "filterable": 1
-    },
+    }
     {
       "key": "ikun",
-      "name": "ikun",
-      "type": 1,
+      "名称": "ikun",
+      "类型": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
-      "searchable": 1,
-      "quickSearch": 1,
+      "可搜索的": 1,
+      "快速搜索": 1,
       "filterable": 1
-    },
+    }
     {
       "key": "hn",
-      "name": "红牛",
-      "type": 1,
+      "名称": "红牛",
+      "类型": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
-      "searchable": 1,
-      "quickSearch": 1,
+      "可搜索的": 1,
+      "快速搜索": 1,
       "filterable": 1
     },
     {
