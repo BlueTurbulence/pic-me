@@ -14,7 +14,7 @@
       "key": "mt",
       "name": "茅台",
       "type": 1,
-      "api": "http://maotaizy.cc",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -32,7 +32,7 @@
       "key": "hn",
       "name": "红牛",
       "type": 1,
-      "api": "https://hongniuzy2.com",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -41,7 +41,7 @@
       "key": "gs",
       "name": "光速",
       "type": 1,
-      "api": "https://guangsuapi.com",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/josn",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -77,7 +77,7 @@
       "key": "xl",
       "name": "新浪",
       "type": 1,
-      "api": "https://xinlangapi.com",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -122,7 +122,7 @@
       "key": "db",
       "name": "豆瓣",
       "type": 1,
-      "api": "https://dbzy5.com",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -159,15 +159,6 @@
       "name": "天涯",
       "type": 0,
       "api": "https://ty.tyyszy5.com/api.php/provide/vod/at/xml/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "pbp",
-      "name": "瀑布盘",
-      "type": 1,
-      "api": "https://dh.ha.cn",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
