@@ -23,7 +23,7 @@
       "key": "ikun",
       "name": "ikun",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
