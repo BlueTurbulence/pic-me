@@ -1,4 +1,5 @@
 {
+  "spider": "https://ghproxy.com",
   "sites": [
     {
       "key": "lz",
