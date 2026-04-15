@@ -2,3 +2,5 @@
 
 
 Thankyou🎆
+
+https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/dianshi.json
