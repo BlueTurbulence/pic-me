@@ -4,3 +4,5 @@
 Thankyou🎆
 
 https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/dianshi.json
+
+大全：https://raw.githubusercontent.com/hd9211/Tvbox1/refs/heads/main/duocang1.json
