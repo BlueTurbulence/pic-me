@@ -2,7 +2,7 @@
 {
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-    "spider": "./spider.jar",
+    "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69",
     "sites": [
         {
             "key": "config",
