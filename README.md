@@ -7,3 +7,4 @@ https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/dianshi.json
 
 
 noimank：https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json
+欧歌：http://120.46.39.251/tvbox/tvboxqq/%E6%AC%A7%E6%AD%8C/api.json
