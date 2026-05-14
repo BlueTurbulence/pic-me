@@ -1,9 +1,27 @@
+//
 
 {
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-    "spider": "https://gh-proxy.com/raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj.jar;md5;ec8ab1bcb078290e4f5a0d1449393a69",
+    "spider": "./spider.jar",
+    "warningText": "免费",
     "sites": [
+        {
+            "key": "豆瓣2",
+            "name": "📢免费仅限测试用，如有收费,直接找退款！",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "豆瓣1",
+            "name": "📢公告❤更新03.16❤",
+            "type": 3,
+            "api": "csp_Notice",
+            "searchable": 1,
+            "jar": "./jars/豆瓣1.jar",
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/m/公告?b=an装🅱na"
+        },
         {
             "key": "config",
             "name": "🐲歌配置｜中心",
@@ -22,6 +40,69 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
+            }
+        },
+        {
+            "key": "csp_wogg1",
+            "name": "🐲玩歌｜4K弹幕",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "jar": "./jars/csp_wogg1.jar",
+            "ext": {
+                "site_urls": [
+                    "https://woog.nxog.fun",
+                    "https://woog.nxog.eu.org",
+                    "https://woog.430520.xyz",
+                    "https://woog.装歌.de5.net",
+                    "https://ogkk.nxog.fun"
+                ],
+                "url_key": "wogg1",
+                "threadinfo": {
+                    "chunksize": 452,
+                    "threads": 16
+                }
+            }
+        },
+        {
+            "key": "csp_woog2",
+            "name": "🐲装歌｜4K弹幕",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "jar": "./jars/config.jar",
+            "ext": {
+                "site_urls": [
+                    "https://ogkk.nxog.fun",
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.430520.xyz",
+                    "https://ogkk.装歌.de5.net",
+                    "https://woog.430520.xyz"
+                ],
+                "url_key": "woog2",
+                "threadinfo": {
+                    "chunksize": 496,
+                    "threads": 16
+                }
+            }
+        },
+        {
+            "key": "夸快夸快",
+            "name": "❤夸快｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://ogkk.nxog.eu.org",
+                    "https://ogkk.nxog.fun",
+                    "https://woog.歌.de5.net"
+                ]
             }
         },
         {
@@ -131,6 +212,14 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
+        },
+        {
+            "key": "移动",
+            "name": "💡移动｜影视",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "橘皮",
@@ -288,6 +377,22 @@
             }
         },
         {
+            "key": "橘子",
+            "name": "👑橘子｜影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt",
+                "dataKey": "jasaFBcdV3zrUDf2",
+                "dataIv": "jasaFBcdV3zrUDf2",
+                "version": "305",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "蓝鹰",
             "name": "👑蓝鹰｜影视",
             "type": 3,
@@ -368,6 +473,294 @@
             "api": "./api/星辰影院.js"
         },
         {
+            "key": "耐看",
+            "name": "🥇耐看┃影视",
+            "type": 3,
+            "api": "./api/耐看.js"
+        },
+        {
+            "key": "New6v",
+            "name": "🎃New6V┃磁力",
+            "type": 3,
+            "api": "csp_New6v",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.xb6v.com"
+        },
+        {
+            "key": "80S",
+            "name": "🎃80S｜磁力",
+            "type": 3,
+            "api": "csp_BLSGod",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "修罗",
+            "name": "🎃修罗｜磁力",
+            "api": "csp_Xlys",
+            "type": 3,
+            "ext": "https://xl01.com.de"
+        },
+        {
+            "key": "七味",
+            "name": "🎃七味｜磁力",
+            "type": 3,
+            "api": "csp_QnMp4",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
+            }
+        },
+        {
+            "key": "电影港",
+            "name": "🎃电影｜磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/电影港.json"
+        },
+        {
+            "key": "电影天堂",
+            "name": "🎃天堂｜磁力",
+            "type": 3,
+            "api": "csp_DyGod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "曼波动漫",
+            "name": "🤣曼波｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.omofun1.top",
+                "dataKey": "66dc309cbeeca454",
+                "dataIv": "66dc309cbeeca454",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "魔都资源",
+            "name": "🤣魔都┃动漫",
+            "type": 1,
+            "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "漫国动漫",
+            "name": "🤣漫国丨动漫",
+            "type": 3,
+            "api": "csp_AppSy",
+            "ext": {
+                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+                "siteKey": "rectangleadsadxa",
+                "listKey": "aassddwwxxllsx1x",
+                "parsesKey": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "番薯动漫",
+            "name": "🤣番薯丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://new.app.bytegooty.com",
+                "dataKey": "N4yj7l7xKxHF4*gz",
+                "dataIv": "N4yj7l7xKxHF4*gz"
+            }
+        },
+        {
+            "key": "玩偶",
+            "name": "❤玩偶｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.nxog.fun",
+                    "https://ogkk.nxog.de5.net"
+                ]
+            }
+        },
+        {
+            "key": "蜡笔",
+            "name": "❤蜡笔｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://www.labi88.sbs",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun"
+                ]
+            }
+        },
+        {
+            "key": "至臻",
+            "name": "❤至臻｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://xiaomiai.site",
+                    "https://xiaomi666.fun",
+                    "https://www.mihdr.top",
+                    "https://www.zhizhenpan.fun"
+                ]
+            }
+        },
+        {
+            "key": "多多",
+            "name": "❤多多｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
+        },
+        {
+            "key": "木偶",
+            "name": "❤木偶｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://123.666291.xyz",
+                    "https://666.666291.xyz",
+                    "https://www.muou.site",
+                    "https://www.muou.asia"
+                ]
+            }
+        },
+        {
+            "key": "虎斑",
+            "name": "❤虎斑｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "http://103.45.162.207:20720"
+                ]
+            }
+        },
+        {
+            "key": "盘搜",
+            "name": "❤盘搜｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "夸克盘搜",
+            "name": "❤夸父｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "quark"
+            }
+        },
+        {
+            "key": "UC盘搜",
+            "name": "❤优夕｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "uc"
+            }
+        },
+        {
+            "key": "百度盘搜",
+            "name": "❤肚盘｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "baidu"
+            }
+        },
+        {
+            "key": "阿里云盘",
+            "name": "❤我的｜阿离",
+            "type": 3,
+            "api": "csp_PanAli",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/aliShare.json"
+        },
+        {
+            "key": "夸克云盘",
+            "name": "❤我的｜夸父",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/quarkShare.json"
+        },
+        {
             "key": "UC",
             "name": "❤我的｜优夕",
             "type": 3,
@@ -380,6 +773,19 @@
                 "ratio": 1.433
             },
             "ext": "./json/ucShare.json"
+        },
+        {
+            "key": "百度云盘",
+            "name": "❤我的｜肚盘",
+            "type": 3,
+            "api": "csp_PanBaiDu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
         },
         {
             "key": "养生堂",
@@ -433,6 +839,488 @@
             }
         },
         {
+            "key": "啊哈DJ网",
+            "name": "🧿啊哈｜DJ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/啊哈DJ.json",
+            "jar": "./jars/养生堂.jar"
+        },
+        {
+            "key": "哔️软件",
+            "name": "🅰️软件┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/软件教程.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩学堂",
+            "name": "🅰学堂┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/学堂教育.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "哔哩少儿",
+            "name": "🅰少儿┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/少儿合集.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️小学",
+            "name": "🅰️小学┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小学课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️初中",
+            "name": "🅰️初中┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/初中课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️高中",
+            "name": "🅰️高中┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/高中课堂.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "口才",
+            "name": "🧒口才┃儿童",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童口才.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "拼音",
+            "name": "🧒拼音┃儿童",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童拼音.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "识字",
+            "name": "🧒识字┃儿童",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童识字.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "思维",
+            "name": "🧒思维┃儿童",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童思维.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "英语",
+            "name": "🧒英语┃儿童",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童英语.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "科学",
+            "name": "🧒科学┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔科学.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "国学",
+            "name": "🧒国学┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔国学.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "地理",
+            "name": "🧒地理┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/小灯塔地理.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "编程",
+            "name": "🧒编程┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童编程.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "武术",
+            "name": "🧒武术┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/儿童武术.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "csp_BBB",
+            "name": "🅱️套餐┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/哔哩套餐1.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "csp_111BB",
+            "name": "🅱️套餐2┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/哔哩套餐2.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "歌曲",
+            "name": "🌈歌曲┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/歌曲MV.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "美食",
+            "name": "🌈美食┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/美食.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "球类",
+            "name": "⚽️球类┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/球类合集.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️球星",
+            "name": "⚽️球星┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/球星合集.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️演唱",
+            "name": "🅰️演唱┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/演唱会.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "️戏曲",
+            "name": "🅰️戏曲┃哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+                "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/戏曲合集.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "急救教学",
+            "name": "🚑急救｜教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+        {
+            "key": "本地",
+            "name": "🚤本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
+            "key": "呦呦DJ",
+            "name": "🌸呦呦｜DJ",
+            "type": 3,
+            "api": "csp_Djuu",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "六月听书",
+            "name": "🌸六月｜听书",
+            "type": 3,
+            "api": "csp_TingBook",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "戏曲多多",
+            "name": "🌸戏曲｜多多",
+            "type": 3,
+            "api": "csp_AppLY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "剧和短剧",
+            "name": "🌸聚合｜短剧",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "./api/preview"
+        },
+        {
+            "key": "919体育",
+            "name": "⚽919｜体育",
+            "type": 3,
+            "api": "csp_919Tiyu",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "采集之王",
             "name": "🐢采集｜合集",
             "type": 3,
@@ -447,6 +1335,29 @@
             "searchable": 0,
             "filterable": 0,
             "changeable": 0
+        },
+        {
+            "key": "应用商店",
+            "name": "🛒本地包更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://xn--anna-wn6lw489o.v.nxog.top/zm/sd?b=an装🅱na"
+        },
+        {
+            "key": "豆瓣3",
+            "name": "📢接口软件永远免费",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "豆瓣4",
+            "name": "📢长期维护切勿贩卖",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
         }
     ],
     "parses": [
@@ -606,7 +1517,24 @@
                 "magnet"
             ],
             "regex": [
-                
+                "更多",
+                "请访问",
+                "example",
+                "社區",
+                "xuu",
+                "直播",
+                "更新",
+                "社区",
+                "有趣",
+                "有趣",
+                "英皇体育",
+                "全中文AV在线",
+                "澳门皇冠赌场",
+                "哥哥快来",
+                "美女荷官",
+                "裸聊",
+                "新片首发",
+                "UUE29"
             ]
         },
         {
