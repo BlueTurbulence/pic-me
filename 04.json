@@ -1,28 +1,8 @@
 {
-    "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
-    "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
+    "wallpaper": "https://nxog.top",
+    "logo": "https://clewm.net",
     "spider": "https://gitee.com",
     "sites": [
-        {
-            "key": "config",
-            "name": "🐲歌配置｜中心",
-            "type": 3,
-            "jar": "./jars/config.jar",
-            "api": "csp_Config",
-            "searchable": 0
-        },
-        {
-            "key": "配置中心",
-            "name": "❤配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
         {
             "key": "荐片",
             "name": "💡荐片｜影视",
@@ -38,7 +18,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": {
-                "url": "http://v.rbotv.cn"
+                "url": "http://rbotv.cn"
             }
         },
         {
@@ -46,14 +26,14 @@
             "name": "💡农民｜影视",
             "type": 3,
             "api": "csp_Wwys",
-            "ext": "https://vip.wwgz.cn:5200"
+            "ext": "https://wwgz.cn"
         },
         {
             "key": "韩圈",
             "name": "💡韩圈｜影视",
             "type": 3,
             "api": "csp_Hxq",
-            "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
+            "ext": "https://wya6.com"
         },
         {
             "key": "坚果影视",
@@ -107,14 +87,14 @@
             "name": "💡金牌｜影视",
             "type": 3,
             "api": "csp_Jpys",
-            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            "ext": "https://hkybqufgh.com,https://sizhengxt.com,https://9zhoukj.com,https://sizhengxt.com,https://jiabaide.cn"
         },
         {
             "key": "云播影视",
             "name": "💡云播｜影视",
             "type": 3,
             "api": "csp_Tvyb",
-            "ext": "http://www.tvyb03.com"
+            "ext": "http://tvyb03.com"
         },
         {
             "key": "饺子影视",
@@ -135,46 +115,36 @@
             "key": "橘皮",
             "name": "💡橘皮｜影视",
             "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 1,
-            "jar": "./jars/橘皮.jar",
-            "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
+            "api": "csp_XBPQ",
+            "ext": "https://gh-proxy.com"
         },
         {
             "key": "柠檬",
             "name": "💡柠檬｜影视",
             "type": 3,
-            "api": "csp_Nmvod",
-            "playerType": 2,
-            "jar": "./jars/橘皮.jar",
-            "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+            "api": "csp_XBPQ",
+            "ext": "https://gh-proxy.com"
         },
         {
             "key": "剧评",
             "name": "💡剧评┃影视",
             "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 1,
-            "jar": "./jars/橘皮.jar",
-            "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
+            "api": "csp_XBPQ",
+            "ext": "https://gh-proxy.com"
         },
         {
             "key": "巧技二",
             "name": "🔍搜搜┃影视",
             "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "jar": "./jars/橘皮.jar",
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
+            "api": "csp_XBPQ",
+            "ext": "https://gh-proxy.com"
         },
         {
             "key": "巧技五",
             "name": "🔍艘艘┃影视",
             "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "jar": "./jars/橘皮.jar",
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
+            "api": "csp_XBPQ",
+            "ext": "https://gh-proxy.com"
         },
         {
             "key": "驿站",
@@ -183,7 +153,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+                "site": "https://68.gy",
                 "dataKey": "dyyztvapiappyyds",
                 "dataIv": "dyyztvapiappyyds"
             }
@@ -196,7 +166,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "site": "https://myqcloud.com",
                 "dataKey": "UrWKPnmQWJA8AQzd",
                 "dataIv": "UrWKPnmQWJA8AQzd"
             }
@@ -209,7 +179,7 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://app.95112475.xyz",
+                "url": "https://95112475.xyz",
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6"
             }
@@ -222,7 +192,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
+                "site": "https://aliyuncs.com",
                 "dataKey": "sjvlwnhk6h9znl61",
                 "dataIv": "sjvlwnhk6h9znl61",
                 "version": "305",
@@ -252,7 +222,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
+                "site": "https://aliyuncs.com",
                 "dataKey": "zxPtEUDGVllIUhDB",
                 "dataIv": "zxPtEUDGVllIUhDB",
                 "ua": "okhttp/3.10.0"
@@ -266,7 +236,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt",
+                "site": "https://aliyuncs.com",
                 "dataKey": "fff32466kkfff616",
                 "dataIv": "fff32466kkfff616",
                 "ua": "okhttp/3.10.0"
@@ -280,7 +250,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt",
+                "site": "https://aliyuncs.com",
                 "dataKey": "k5t2fp3h9d25hn9y",
                 "dataIv": "k5t2fp3h9d25hn9y"
             }
