@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://xn--anna-wn6lw489o.v.nxog.top/m/t/",
     "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-    "spider": "http://xn--sss604efuw.top",
+    "spider": "https://gitee.com",
     "sites": [
         {
             "key": "config",
@@ -287,4 +287,3 @@
         }
     ]
 }
-
